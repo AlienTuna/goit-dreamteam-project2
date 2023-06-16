@@ -1,25 +1,32 @@
 {
-  "name": "goit-dreamteam-project2",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {
-    "parcel": "^2.9.2"
-  },
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://AlienTuna.github.io/goit-dreamteam-project2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /goit-dreamteam-project2/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlienTuna/goit-dreamteam-project2"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlienTuna/goit-dreamteam-project2/issues"
   },
-  "homepage": "https://AlienTuna.github.io/goit-dreamteam-project2",
-  "description": "",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
