@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AlienTuna.github.io/goit-dreamteam-project2",
+  "homepage": "https://AlienTuna.github.io/goit-proj2",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-dreamteam-project2/"
+    "build": "parcel build src/*.html --public-url /goit-proj2/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlienTuna/goit-dreamteam-project2"
+    "url": "git+https://github.com/AlienTuna/goit-proj2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlienTuna/goit-dreamteam-project2/issues"
+    "url": "https://github.com/AlienTuna/goit-proj2/issues"
   },
   "dependencies": {
     "axios": "^1.4.0",
