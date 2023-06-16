@@ -1,0 +1,25 @@
+{
+  "name": "goit-dreamteam-project2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlienTuna/goit-dreamteam-project2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlienTuna/goit-dreamteam-project2/issues"
+  },
+  "homepage": "https://AlienTuna.github.io/goit-dreamteam-project2",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
